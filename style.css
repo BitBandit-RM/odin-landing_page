@@ -158,3 +158,9 @@ a {
     height: 30px;
     flex-basis: auto;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #ffffff;
+    text-align: center;
+}
