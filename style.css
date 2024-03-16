@@ -123,3 +123,38 @@ a {
     font-weight: bolder;
     font-size: 27px;
 }
+
+.cta-block {
+    padding: 24px 112px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cta-block .text-left p {
+    color: #ffffff;
+    margin: 0;
+    padding: 2px 0;
+}
+
+.cta-block .text-left .text-header {
+    font-weight: bolder;
+    font-size:larger;
+}
+
+.cta-block .text-left .text-body {
+    font-weight:300;
+}
+
+.cta-block .button-right {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    width: 112px;
+    height: 30px;
+    flex-basis: auto;
+}
