@@ -69,8 +69,18 @@ a {
 }
 
 .hero .image-right {
-    height: 250px;
-    width: 500px;
+    background-color: #8f8f8fa6;
+    height: 225px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.hero .image-right p {
+    color: #ffffff;
+    text-align: center;
 }
 
 .information {
@@ -131,6 +141,7 @@ a {
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
+    gap: 48px;
 }
 
 .cta-block .text-left p {
@@ -154,9 +165,9 @@ a {
     background-color: #3882F6;
     border-radius: 10px;
     border: 2px solid #ffffff;
-    width: 112px;
-    height: 30px;
-    flex-basis: auto;
+    max-width: 112px;
+    max-height: 30px;
+    flex: 1;
 }
 
 .footer {
